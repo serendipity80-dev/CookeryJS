@@ -34,6 +34,10 @@ body{
 .card{
     max-width: 20rem;
     box-shadow:var(--light-shadow);
+    transform: scale(1);
+}
+.card:hover{
+    transform: scale(1.1);
 }
 .card-title{
     text-shadow: var(--dark-shadow);
