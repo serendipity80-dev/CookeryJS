@@ -97,17 +97,21 @@ const displayMenuItems = (menuItem) => {
     let displayItems = menuItem.map( (item) =>{
         return `
           <div class="card">
-            <div class="card-image">
+            <div class="card-image waves-effect waves-block waves-light">
               <img src=${item.img}>
-              <span class="card-title">${item.title}</span>
-             
+              <span class="card-title activator white-text text-darken-4">${item.title}</span>
+              </div>
+              <div class="card-content">
+              <p class="card-title activator grey-text text-darken-4"><a href="#">Read More</a><i class="material-icons right">more_vert</i></p>
             </div>
-            <div class="card-content">
+            <div class="card-reveal">
+            <span class="card-title  white-text text-darken-4">${item.title}
+            <i class="material-icons right">close</i>
+            </span>
               <p>${item.desc}</p>
             </div>
-            <div class="card-action">
-              <a href="#">Read More</a>
-            </div>
+            
+            
           </div>
       `;
     });
@@ -144,3 +148,4 @@ const displayBtns = () =>{
     });
 });
 }
+ 
