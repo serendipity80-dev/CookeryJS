@@ -19,11 +19,16 @@ body{
     align-items: center;
     justify-content: center;
 }
-.container h2{
-    text-transform: capitalize;
-    font-style: italic;
-    font-family: "Poppins",sans-serif;
+ .logo{
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
 }
+/* .container h2{ */
+    /* text-transform: capitalize; */
+    /* font-style: italic; */
+    /* font-family: "Poppins",sans-serif; */
+/* } */
 .row{
     margin: 0 auto;
     max-width: 1170px;
