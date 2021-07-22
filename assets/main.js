@@ -102,7 +102,7 @@ const displayMenuItems = (menuItem) => {
               <span class="card-title activator white-text text-darken-4">${item.title}</span>
               </div>
               <div class="card-content">
-              <p class="card-title activator grey-text text-darken-4"><a href="#">Read More</a><i class="material-icons right">more_vert</i></p>
+              <p class="card-title activator grey-text text-darken-4"><a href="notFound.html">Read More</a><i class="material-icons right">more_vert</i></p>
             </div>
             <div class="card-reveal">
             <span class="card-title  white-text text-darken-4">${item.title}
