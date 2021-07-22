@@ -78,7 +78,7 @@ const menu = [
     },
     {
         id:12,
-        title:"Rumsteak",
+        title:"Rumpsteak",
         category:"lunch",
         img:"./assets/img/13.jpg",
         desc:"Try our perfect method for cooking a simple rump steak with these easy, foolproof steps. Serve with golden brown chips for an indulgent dinner for two.",
