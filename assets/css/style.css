@@ -19,11 +19,6 @@ body{
     align-items: center;
     justify-content: center;
 }
- .logo{
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-bottom: 1rem;
-}
 /* .container h2{ */
     /* text-transform: capitalize; */
     /* font-style: italic; */
@@ -64,12 +59,18 @@ height: 200px;
     background-color: rgba(0,0,0,0.7) !important;
   }
 .btn{
+    margin-top: 2rem;
     margin-bottom: 1rem;
     border-radius: 22px;
     border-color: aqua;
     color: #f1f1f1;
 }
-
+nav{
+    background: #f1f1f1;
+}
+nav li a{
+    color: red;
+}
 @media screen and (max-width:768px){
     .btn-container{
         width: 100%;
@@ -103,6 +104,15 @@ height: 200px;
 }
 .notfound-img{
     background-size: cover;
-    width: 80vw;
+    width: 60vw;
     height: 70vh;
+}
+
+@media screen and (max-width:501px){
+    .notfound-img{
+        width: 100%;
+    }
+    #notfound a{
+        font-size: .8rem;
+    }
 }

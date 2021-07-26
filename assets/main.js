@@ -127,7 +127,9 @@ const displayBtns = () =>{
     }, ['all']
     );
     const categoryBtn = categories.map((category) =>{
-        return ` <button id="filter-btn" class="btn waves-effect waves-light btn-small" data-id=${category} type="button">${category}</button>`
+        return `
+        <button id="filter-btn" class="btn waves-effect waves-light btn-small red" data-id=${category} type="button">${category}</button> 
+        `
     }).join("");
     btnContainer.innerHTML = categoryBtn;
     const btns = document.querySelectorAll('#filter-btn');
